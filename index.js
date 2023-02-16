@@ -233,3 +233,11 @@ for (let i = 0; i <= 25; i) {
   total2 = total2 + i;
 }
 console.log(`Сумма чисел цикла равняется : ${total2}`);
+
+console.log("Задание номер 12");
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
