@@ -217,3 +217,11 @@ for (let i = 1; i <= 8; i++) {
   total = total * i;
 }
 console.log(`Факториал числа 8 равняется : `+ total);
+
+console.log("Задание номер 10");
+
+let square = 0;
+for (let i = 0; i <= 10; i++) {
+  square = i * i;
+  console.log(square);
+}
