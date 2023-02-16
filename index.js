@@ -225,3 +225,11 @@ for (let i = 0; i <= 10; i++) {
   square = i * i;
   console.log(square);
 }
+
+console.log("Задание номер 11");
+
+let total2 = 0;
+for (let i = 0; i <= 25; i) {
+  total2 = total2 + i;
+}
+console.log(`Сумма чисел цикла равняется : ${total2}`);
