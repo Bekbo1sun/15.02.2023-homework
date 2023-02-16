@@ -1,91 +1,91 @@
-function number(a, b) {
-  for (let i = a; i <= b; i++) {
-    console.log(i);
-  }
-}
-number(4, 7);
+// function number(a, b) {
+//   for (let i = a; i <= b; i++) {
+//     console.log(i);
+//   }
+// }
+// number(4, 7);
 
-let unique = [];
-let example1 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; // показывает одинаковые цифры с двух массивов
-let example2 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
-for (let i = 0; i < example1.length; i++) {
-  if (example2.includes(example1[i])) {
-    unique.push(example1[i]);
-  }
-}
-console.log(unique);
+// let unique = [];
+// let example1 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; // показывает одинаковые цифры с двух массивов
+// let example2 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
+// for (let i = 0; i < example1.length; i++) {
+//   if (example2.includes(example1[i])) {
+//     unique.push(example1[i]);
+//   }
+// }
+// console.log(unique);
 
-let unique1 = [];
-let example3 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; // показывает те цифры которые нету во втором массиве
-let example4 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
-for (let i = 0; i < example3.length; i++) {
-  if (example4.includes(example3[i]) === false) {
-    unique1.push(example3[i]);
-  }
-}
-console.log(unique1);
+// let unique1 = [];
+// let example3 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; // показывает те цифры которые нету во втором массиве
+// let example4 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
+// for (let i = 0; i < example3.length; i++) {
+//   if (example4.includes(example3[i]) === false) {
+//     unique1.push(example3[i]);
+//   }
+// }
+// console.log(unique1);
 
-let unique2 = [];
-let example5 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; 
-let example6 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
-for (let i = 0; i < example5.length; i++) {
-  unique2.push(example5[i]);
-}
-for (let i = 0; i < example6.length; i++) {
-  unique2.push(example6[i]);
-}
+// let unique2 = [];
+// let example5 = [1, 2, 3, 4, 6, 6, 7, 5, 9]; 
+// let example6 = [0, 4, 3, 4, 5, 2, 7, 3, 8];
+// for (let i = 0; i < example5.length; i++) {
+//   unique2.push(example5[i]);
+// }
+// for (let i = 0; i < example6.length; i++) {
+//   unique2.push(example6[i]);
+// }
 
-let dosya = {
-  height: 1.50,
-  weight: "tonna",
-  age: 15,
-  status: "tanks",
-  live: "karakol",
-}
-  dosya.sayGoodBye = function() {
-    console.log("bye");
-  }
-console.log(dosya);
-dosya.weight = "54";
-console.log(dosya);
-dosya.sayGoodBye();
+// let dosya = {
+//   height: 1.50,
+//   weight: "tonna",
+//   age: 15,
+//   status: "tanks",
+//   live: "karakol",
+// }
+//   dosya.sayGoodBye = function() {
+//     console.log("bye");
+//   }
+// console.log(dosya);
+// dosya.weight = "54";
+// console.log(dosya);
+// dosya.sayGoodBye();
 
-let calc = {
-  number: 0,
-  add: function(num){
-    this.number = this.number + num
-  },
-  subtract: function(num){
-    this.number = this.number - num
-  },
-  clear: function(num){
-    this.number = 0;
-  },
-  togglePositive: function(num){
-    this.number = -this.number;
-  },
-  show: function() {
-    console.log(this.number);
-  },
-  get: function() {
-    return this.number;
-  },
-}
+// let calc = {
+//   number: 0,
+//   add: function(num){
+//     this.number = this.number + num
+//   },
+//   subtract: function(num){
+//     this.number = this.number - num
+//   },
+//   clear: function(num){
+//     this.number = 0;
+//   },
+//   togglePositive: function(num){
+//     this.number = -this.number;
+//   },
+//   show: function() {
+//     console.log(this.number);
+//   },
+//   get: function() {
+//     return this.number;
+//   },
+// }
 
-calc.add(5);
-calc.show();
-calc.add(10);
-calc.show();
-calc.subtract(2);
-calc.show();
-calc.clear();
-calc.show();
-calc.togglePositive();
-calc.show();
+// calc.add(5);
+// calc.show();
+// calc.add(10);
+// calc.show();
+// calc.subtract(2);
+// calc.show();
+// calc.clear();
+// calc.show();
+// calc.togglePositive();
+// calc.show();
 
-let exampleA = calc.get();
+// let exampleA = calc.get();
 
-console.log("homework")
+// console.log("homework")
 
 // 1. Напишите функцию, которая выводит ваше имя и фамилию.
 // // functionName("Erjan", "Kydyrov") // My  name is Erjan Kydyrov
@@ -226,33 +226,42 @@ console.log("homework")
 //   console.log(square);
 // }
 
-console.log("Задание номер 11");
+// console.log("Задание номер 11");
 
-let total1 = 0;
-for (let i = 0; i <= 25; i) {
-  total1 = total1 + i;
+// let total1 = 0;
+// for (let i = 0; i <= 25; i) {
+//   total1 = total1 + i;
+// }
+// console.log(`Сумма чисел цикла равняется : ${total1}`);
+
+// console.log("Задание номер 12");
+
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// console.log("Задание номер 13");
+
+// for (let i = 0; i <= 15; i) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// console.log("Задание номер 14");
+
+// let str = ["new", "new"];
+// str.unshift("old", "old");
+// str.push("new", "new", "new");
+// console.log(str);
+
+// console.log("Задание номер 15");
+
+let number = [2, 3, 4, 5, 5];
+let calc = 0;
+for (let i = 0; i < number.length; ) {
+  calc = calc + number[i];
 }
-console.log(`Сумма чисел цикла равняется : ${total1}`);
-
-console.log("Задание номер 12");
-
-for (let i = 0; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
-}
-
-console.log("Задание номер 13");
-
-for (let i = 0; i <= 15; i) {
-  if (i % 2 !== 0) {
-    console.log(i);
-  }
-}
-
-console.log("Задание номер 14");
-
-let str = ["new", "new"];
-str.unshift("old", "old");
-str.push("new", "new", "new");
-console.log(str);
+console.log("сумма маcсива равна: " + calc);
