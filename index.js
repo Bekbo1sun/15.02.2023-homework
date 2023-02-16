@@ -144,8 +144,19 @@ console.log("homework")
 // // cat - true
 // // parrot - false
 
+console.log("Задание номер 1");
+
 function MyName(surname, name) {
   let nameResult = `My name is ${surname}${name}`;
   console.log(nameResult);
 }
 MyName("Jarmamatov ", "Bekbolsun");
+
+console.log("Задание номер 2");
+
+function printVolume(radius, height) {
+  let Volumeresult = `Радиус объёема равенt: ` + radius * height;
+  console.log(Volumeresult);
+}
+printVolume(4, 8);
+
