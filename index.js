@@ -144,100 +144,108 @@ console.log("homework")
 // // cat - true
 // // parrot - false
 
-console.log("Задание номер 1");
+// console.log("Задание номер 1");
 
-function MyName(surname, name) {
-  let nameResult = `My name is ${surname}${name}`;
-  console.log(nameResult);
-}
-MyName("Jarmamatov ", "Bekbolsun");
+// function MyName(surname, name) {
+//   let nameResult = `My name is ${surname}${name}`;
+//   console.log(nameResult);
+// }
+// MyName("Jarmamatov ", "Bekbolsun");
 
-console.log("Задание номер 2");
+// console.log("Задание номер 2");
 
-function printVolume(radius, height) {
-  let Volumeresult = `Радиус объёма равенt: ` + radius * height;
-  console.log(Volumeresult);
-}
-printVolume(4, 8);
+// function printVolume(radius, height) {
+//   let Volumeresult = `Радиус объёма равенt: ` + radius * height;
+//   console.log(Volumeresult);
+// }
+// printVolume(4, 8);
 
-console.log("Задание номер 3");
+// console.log("Задание номер 3");
 
-function getLength(str) {
-  console.log(`Строка длинны равна: ${str.length}`);
-}
-getLength("sjkdvhdb");
+// function getLength(str) {
+//   console.log(`Строка длинны равна: ${str.length}`);
+// }
+// getLength("sjkdvhdb");
 
-console.log("Задание номер 4");
+// console.log("Задание номер 4");
 
-function evenOrNotEven(number) {
-  if (number % 2 === 0) {
-    console.log(`Число ${number} : even`);
-  }
-  else {
-    console.log(`Число ${number}: not even`);
-  }
-}
-evenOrNotEven(3);
+// function evenOrNotEven(number) {
+//   if (number % 2 === 0) {
+//     console.log(`Число ${number} : even`);
+//   }
+//   else {
+//     console.log(`Число ${number}: not even`);
+//   }
+// }
+// evenOrNotEven(3);
 
-console.log("Задание номер 5");
+// console.log("Задание номер 5");
 
-function squareNumber(number) {
-  return `Квадратный число ${number} является число: ${number * number}`;
-}
-let result = squareNumber(7);
-console.log(result);
+// function squareNumber(number) {
+//   return `Квадратный число ${number} является число: ${number * number}`;
+// }
+// let result = squareNumber(7);
+// console.log(result);
 
-console.log("Задание номер 6");
+// console.log("Задание номер 6");
 
-function RootNumber(num) {
-  return `Корень числа ${num} является: ` + Math.sqrt(num);
-}
-let Result = RootNumber(100);
-console.log(Result);
+// function RootNumber(num) {
+//   return `Корень числа ${num} является: ` + Math.sqrt(num);
+// }
+// let Result = RootNumber(100);
+// console.log(Result);
 
-console.log("Задание номер 7");
+// console.log("Задание номер 7");
 
-function getPerimeterNumber(a, b, c, d, e) {
-  let Perimeter = a + b + c + d + e;
-  return `Периметр прямоугольника равняется: ` + Perimeter;
-}
-let perimeterResult = getPerimeterNumber(2, 5, 8, 6);
-console.log(perimeterResult);
+// function getPerimeterNumber(a, b, c, d, e) {
+//   let Perimeter = a + b + c + d + e;
+//   return `Периметр прямоугольника равняется: ` + Perimeter;
+// }
+// let perimeterResult = getPerimeterNumber(2, 5, 8, 6);
+// console.log(perimeterResult);
 
-console.log("Задание номер 8");
+// console.log("Задание номер 8");
 
-for (let i = 0; i <= 33; i++) {
-  if (i % 3 === 0) console.log(i);
-}
+// for (let i = 0; i <= 33; i++) {
+//   if (i % 3 === 0) console.log(i);
+// }
 
-console.log("Задание номер 9");
+// console.log("Задание номер 9");
 
-let total = 1;
-for (let i = 1; i <= 8; i++) {
-  total = total * i;
-}
-console.log(`Факториал числа 8 равняется : `+ total);
+// let total = 1;
+// for (let i = 1; i <= 8; i++) {
+//   total = total * i;
+// }
+// console.log(`Факториал числа 8 равняется : `+ total);
 
-console.log("Задание номер 10");
+// console.log("Задание номер 10");
 
-let square = 0;
-for (let i = 0; i <= 10; i++) {
-  square = i * i;
-  console.log(square);
-}
+// let square = 0;
+// for (let i = 0; i <= 10; i++) {
+//   square = i * i;
+//   console.log(square);
+// }
 
 console.log("Задание номер 11");
 
-let total2 = 0;
+let total1 = 0;
 for (let i = 0; i <= 25; i) {
-  total2 = total2 + i;
+  total1 = total1 + i;
 }
-console.log(`Сумма чисел цикла равняется : ${total2}`);
+console.log(`Сумма чисел цикла равняется : ${total1}`);
 
 console.log("Задание номер 12");
 
 for (let i = 0; i <= 20; i++) {
   if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+console.log("Задание номер 13");
+
+for (let i = 0; i <= 15; i) {
+  if (i % 2 !== 0) {
     console.log(i);
   }
 }
