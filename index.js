@@ -155,7 +155,7 @@ MyName("Jarmamatov ", "Bekbolsun");
 console.log("Задание номер 2");
 
 function printVolume(radius, height) {
-  let Volumeresult = `Радиус объёема равенt: ` + radius * height;
+  let Volumeresult = `Радиус объёма равенt: ` + radius * height;
   console.log(Volumeresult);
 }
 printVolume(4, 8);
@@ -171,10 +171,26 @@ console.log("Задание номер 4");
 
 function evenOrNotEven(number) {
   if (number % 2 === 0) {
-    console.log(`число ${number} : even`);
+    console.log(`Число ${number} : even`);
   }
   else {
-    console.log(`число ${number} : not even`);
+    console.log(`Число ${number}: not even`);
   }
 }
 evenOrNotEven(3);
+
+console.log("Задание номер 5");
+
+function squareNumber(number) {
+  return `Квадратный число ${number} является число: ${number * number}`;
+}
+let result = squareNumber(7);
+console.log(result);
+
+console.log("Задание номер 6");
+
+function RootNumber(num) {
+  return `Корень числа ${num} является: ` + Math.sqrt(num);
+}
+let Result = RootNumber(100);
+console.log(Result);
