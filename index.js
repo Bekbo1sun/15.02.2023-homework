@@ -249,3 +249,10 @@ for (let i = 0; i <= 15; i) {
     console.log(i);
   }
 }
+
+console.log("Задание номер 14");
+
+let str = ["new", "new"];
+str.unshift("old", "old");
+str.push("new", "new", "new");
+console.log(str);
