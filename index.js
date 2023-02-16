@@ -201,5 +201,5 @@ function getPerimeterNumber(a, b, c, d, e) {
   let Perimeter = a + b + c + d + e;
   return `Периметр прямоугольника равняется: ` + Perimeter;
 }
-let perimeterResult = getPerimeterNumber(2, 5, 7, 6);
+let perimeterResult = getPerimeterNumber(2, 5, 8, 6);
 console.log(perimeterResult);
