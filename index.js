@@ -160,3 +160,9 @@ function printVolume(radius, height) {
 }
 printVolume(4, 8);
 
+console.log("Задание номер 3");
+
+function getLength(str) {
+  console.log(`Строка длинны равна : ${str.length}`);
+}
+getLength("sjkdvhdb");
