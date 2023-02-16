@@ -203,3 +203,9 @@ function getPerimeterNumber(a, b, c, d, e) {
 }
 let perimeterResult = getPerimeterNumber(2, 5, 8, 6);
 console.log(perimeterResult);
+
+console.log("Задание номер 8");
+
+for (let i = 0; i <= 33; i++) {
+  if (i % 3 === 0) console.log(i);
+}
