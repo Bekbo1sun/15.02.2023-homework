@@ -163,6 +163,18 @@ printVolume(4, 8);
 console.log("Задание номер 3");
 
 function getLength(str) {
-  console.log(`Строка длинны равна : ${str.length}`);
+  console.log(`Строка длинны равна: ${str.length}`);
 }
 getLength("sjkdvhdb");
+
+console.log("Задание номер 4");
+
+function evenOrNotEven(number) {
+  if (number % 2 === 0) {
+    console.log(`число ${number} : even`);
+  }
+  else {
+    console.log(`число ${number} : not even`);
+  }
+}
+evenOrNotEven(3);
