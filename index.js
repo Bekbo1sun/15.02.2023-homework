@@ -195,3 +195,11 @@ function RootNumber(num) {
 let Result = RootNumber(100);
 console.log(Result);
 
+console.log("Задание номер 7");
+
+function getPerimeterNumber(a, b, c, d, e) {
+  let Perimeter = a + b + c + d + e;
+  return `Периметр прямоугольника равняется: ` + Perimeter;
+}
+let perimeterResult = getPerimeterNumber(2, 5, 7, 6);
+console.log(perimeterResult);
