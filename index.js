@@ -209,3 +209,11 @@ console.log("Задание номер 8");
 for (let i = 0; i <= 33; i++) {
   if (i % 3 === 0) console.log(i);
 }
+
+console.log("Задание номер 9");
+
+let total = 1;
+for (let i = 1; i <= 8; i++) {
+  total = total * i;
+}
+console.log(`Факториал числа 8 равняется : `+ total);
