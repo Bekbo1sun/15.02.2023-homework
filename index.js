@@ -194,3 +194,4 @@ function RootNumber(num) {
 }
 let Result = RootNumber(100);
 console.log(Result);
+
